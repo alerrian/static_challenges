@@ -1,3 +1,39 @@
-header{
+body {
+  color: white;
+  font-family: "Arial";
+}
+
+#redHeader {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: red;
+  font-style: bold;
+  font-size: 30px;
+}
+
+#grayHeader {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(63, 62, 62);
+}
+
+picture {
+  padding: 0px;
+  width: 50%;
+  height: auto;
+}
+
+a {
+  float: right;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(63, 62, 62);
 }
