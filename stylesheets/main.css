@@ -7,7 +7,7 @@ body {
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: red;
+  background-color: darkred;
   font-style: bold;
   font-size: 30px;
 }
@@ -17,18 +17,56 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgb(63, 62, 62);
+  font-style: bold;
 }
 
-picture {
-  padding: 0px;
-  width: 50%;
-  height: auto;
+p {
+	margin: 1em 0;
 }
 
 a {
   float: right;
-  padding: 10px;
+  padding-right: 10px;
   color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainText {
+  color: black;
+  font-family: Arial;
+  float: left;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.artMuseum {
+  margin: auto;
+  width: 65%;
+  float: left;
+}
+
+.artMuseum img {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.otherPhotos {
+  padding-top: 20px;
+  margin: auto;
+  width: 20%;
+  float: right;
+}
+
+.otherPhotos img {
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -36,4 +74,5 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgb(63, 62, 62);
+  clear: both;
 }
